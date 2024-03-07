@@ -42,15 +42,6 @@ Not a fan of bits of the stack? Fork it, change it, and use `npx create-remix --
 
 ## Development
 
-- First run this stack's `remix.init` script and commit the changes it makes to your project.
-
-  ```sh
-  npx remix init
-  git init # if you haven't already
-  git add .
-  git commit -m "Initialize project"
-  ```
-
 - Start the Postgres Database in [Docker](https://www.docker.com/get-started):
 
   ```sh
